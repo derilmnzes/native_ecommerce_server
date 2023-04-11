@@ -20,8 +20,7 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Ignore npm package lock file
-package-lock.json
+
 
 # Ignore yarn lock file
 yarn.lock
