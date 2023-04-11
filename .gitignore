@@ -1,0 +1,41 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore built output
+build/
+dist/
+*.bundle.js
+*.bundle.js.map
+*.bundle.css
+*.bundle.css.map
+
+# Ignore environment files
+.env
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore npm package lock file
+package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore VSCode configuration files
+.vscode/
+
+# Ignore IDE-specific files
+*.iml
+*.ipr
+*.iws
+
+# Ignore custom files and directories
+/custom_directory/
+/custom_file.txt
+
+# Add other project-specific rules below this line
