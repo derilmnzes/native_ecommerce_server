@@ -70,6 +70,7 @@ router.post("/signup", async (req, res) => {
       message: "User created successfully",
     });
   } catch (error) {
+    console.log(error)
     const { message, code } = getErrorMessage(error, error.code);
     res.status(code).send({
       message,

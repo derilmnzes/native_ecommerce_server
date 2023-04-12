@@ -5,6 +5,7 @@ const jwt = require("jsonwebtoken");
 const getErrorMessage = require("../Error/error");
 const upload = require("../Middlewear/multer");
 const Product = require("../Modules/Products");
+const { default: axios } = require("axios");
 
 
 
@@ -50,6 +51,12 @@ console.log(req.params.id)
 console.log(err)
   }
  }));
+
+
+
+
+
+
 
 router.post('/add', async (req, res) => {
     const { title, price, image,description} = req.body;
